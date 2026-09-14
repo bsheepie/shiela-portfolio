@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shiela's personal portfolio.">
+  <title>Shiela's Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Baloo+2:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav aria-label="Main navigation">
+    <a class="logo" href="#home" aria-label="Shiela home">SHI<span>ELA</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="hero" id="home">
+      <p class="eyebrow">Welcome to my little corner</p>
+
+      <h1>Hello, I'm <span>Shiela.</span></h1>
+
+      <p class="hero-copy">
+        A curious learner who enjoys simple moments, new ideas, and sharing a little about myself.
+      </p>
+
+      <a class="button" href="#hobbies">Get to know me</a>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+      <div class="section-title">
+        <p>What I enjoy</p>
+        <h2>My <span>Hobbies</span></h2>
+      </div>
+
+      <div class="hobby-grid">
+
+        <article class="hobby-card">
+          <div class="hobby-icon">
+            <img src="movies-svgrepo-com.svg" alt="Movies icon">
+          </div>
+
+          <h3>Watching Movies</h3>
+
+          <p>
+            I love watching movies and series because they take me to a new dimension.
+          </p>
+        </article>
+
+        <article class="hobby-card">
+          <div class="hobby-icon">
+            <img src="arcade-svgrepo-com.svg" alt="Gaming icon">
+          </div>
+
+          <h3>Gaming</h3>
+
+          <p>
+            Playing mobile games such as Mobile Legends is one of my favorite ways to relax.
+          </p>
+        </article>
+
+        <article class="hobby-card">
+          <div class="hobby-icon">
+            <img src="badminton-svgrepo-com.svg" alt="Badminton icon">
+          </div>
+
+          <h3>Badminton</h3>
+
+          <p>
+            I enjoy playing badminton whenever I have someone to play with.
+          </p>
+        </article>
+
+        <article class="hobby-card">
+          <div class="hobby-icon">
+            <img src="computer-svgrepo-com.svg" alt="Technology icon">
+          </div>
+
+          <h3>Technology</h3>
+
+          <p>
+            I enjoy learning and exploring technology because it is such an important part of our world.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-title">
+        <p>Let's collaborate</p>
+        <h2>Get in <span>Touch</span></h2>
+      </div>
+
+      <div class="contact-box">
+        <p>
+          Thank you for visiting my portfolio. I hope you had fun learning a little about me!
+        </p>
+
+        <p>
+          Here is how you can contact me:
+        </p>
+
+        <div class="contact-info">
+          <a class="contact-item" href="mailto:shieamaemendrez@gmail.com">
+            ✉️ shieamaemendrez@gmail.com
+          </a>
+
+          <span class="contact-item">
+            📱 09XX-XXX-XXXX
+          </span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Made with patience <span>♥</span> by Shiela<br>
+    © 2026 Shiela's Portfolio. All rights reserved.
+  </footer>
+
+  <audio id="bgMusic" loop>
+    <source src="I Wanna Be Yours.mp3" type="audio/mpeg">
+  </audio>
+
+  <button
+  id="muteButton"
+  class="mute-button"
+  aria-label="Play background music"
+  title="Play background music"
+>
+  <img id="iconMuted" class="sound-icon" src="sound-off-svgrepo-com.svg" alt="Muted icon">
+  <img id="iconPlaying" class="sound-icon" src="sound-volume-2-svgrepo-com.svg" alt="Playing icon" style="display:none;">
+</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
